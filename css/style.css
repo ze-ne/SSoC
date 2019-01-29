@@ -142,7 +142,7 @@ banner
 }
 #banner{
     margin-top: -60px;
-	background: url('../img/science3.jpg') no-repeat fixed;
+    background: url('../img/science4.jpg') no-repeat fixed;
 	background-size: cover;
 	min-height: 500px;
 	position: relative;
@@ -252,7 +252,7 @@ team
 cta -2
 ***************************************/
 #cta-2{
-	background-color: rgba(6, 45, 100, 0.85);
+	background-color: rgba(6, 45, 100, 0.75);
 }
 .white{
 	color: #fff;
@@ -405,6 +405,36 @@ body {
     font-size: 14px;
 }
 
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 10px;
+    grid-gap: 20px;
+}
+
+.grid-item-study {
+    background-color: rgba(6, 45, 100, 0.45);
+    border: 5px solid rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.grid-item-family {
+    background-color: rgba(84, 172, 68, 0.45);
+    border: 5px solid rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item-general {
+    background-color: rgba(247, 101, 11, 0.45);
+    border: 5px solid rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
 /***************************************
 footer
 ***************************************/
